@@ -4,8 +4,6 @@ var express = require('express');
 var fs      = require('fs');
 
 
-self.app.use(express.static(__dirname));
-
 /**
  *  Define the sample application.
  */
