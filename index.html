@@ -31,33 +31,9 @@
 
 		<!-- Worthy core CSS file -->
 		<link href="css/style.css" rel="stylesheet">
-
-		<!-- Backstretch javascript -->
-		<script async type="text/javascript" src="plugins/jquery.min.js"></script>
-		<script async type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
-		<!-- Backstretch javascript -->
 	</head>
 
 	<body class="no-trans">
-
-		<script>
-		  window.fbAsyncInit = function() {
-		    FB.init({
-		      appId      : '898872163491490',
-		      xfbml      : true,
-		      version    : 'v2.2'
-		    });
-		  };
-
-		  (function(d, s, id){
-		     var js, fjs = d.getElementsByTagName(s)[0];
-		     if (d.getElementById(id)) {return;}
-		     js = d.createElement(s); js.id = id;
-		     js.src = "//connect.facebook.net/en_US/sdk.js";
-		     fjs.parentNode.insertBefore(js, fjs);
-		   }(document, 'script', 'facebook-jssdk'));
-		</script>
-
 		<!-- scrollToTop -->
 		<!-- ================ -->
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
@@ -163,7 +139,23 @@
 		</div>
 		
 		<!-- banner end -->
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '898872163491490',
+		      xfbml      : true,
+		      version    : 'v2.2'
+		    });
+		  };
 
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
 		<!-- section start -->
 		<!-- ================ -->
 		<div class="section">
@@ -953,11 +945,11 @@
 		<!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
 		<!-- Jquery and Bootstap core js files -->
-		
-
-		
+		<script async type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script async type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
+		<!-- Backstretch javascript -->
+		<script async type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
 		<!-- Modernizr javascript -->
 		<script async type="text/javascript" src="plugins/modernizr.js"></script>
 
