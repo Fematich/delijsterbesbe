@@ -8,7 +8,7 @@
  */
 
 (function($){
-	$(document).ready(function(){	
+	$(document).ready(function(){		
 		// Fixed header
 		//-----------------------------------------------
 		$(window).scroll(function() {
