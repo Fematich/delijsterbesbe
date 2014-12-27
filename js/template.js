@@ -8,10 +8,7 @@
  */
 
 (function($){
-	$(document).ready(function(){
-	
-		$(".banner-image").backstretch('images/banner.jpg');
-		
+	$(document).ready(function(){	
 		// Fixed header
 		//-----------------------------------------------
 		$(window).scroll(function() {
